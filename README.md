@@ -1,6 +1,10 @@
 # btc-classifier
 Python scripts suite for generating Bitcoin transactions graphs and analyzing them using machine learning.
 
+# Solution Architecture
+
+![Solution architecture](/images/Solution Architecture.png)
+
 # Execution
 Before executing any script, install required dependencies:
 ```
