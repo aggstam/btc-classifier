@@ -50,8 +50,10 @@ Before executing any script, install required dependencies:
 % pip install -r requirements.txt
 ```
 
-!IMPORTANT: 
+!IMPORTANT:
+
 stellargraph requires Python >=3.6.0, <3.8.0 so make sure you have that python versions installed, along with their pip.
+
 Example requirements installation for python3.8, while system uses python3.10
 ```
 % python3.8 -m ensurepip --upgrade
