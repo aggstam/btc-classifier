@@ -3,7 +3,7 @@ Python scripts suite for generating Bitcoin transactions graphs and analyzing th
 
 # Solution Architecture
 
-![Solution architecture](images/Solution Architecture.png)
+![Solution architecture](https://github.com/aggstam/btc-classifier/blob/main/images/Solution%20Architecture.png)
 
 # Execution
 Before executing any script, install required dependencies:
