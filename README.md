@@ -6,7 +6,7 @@ The solution architecture high-level view:
 ![Solution architecture](https://github.com/aggstam/btc-classifier/blob/main/images/Solution%20Architecture.png)
 
 ## parser.py 
-This script is a modified version of Blockchain parser by Denis Leonov [1].
+This script is a modified version of Blockchain parser by Denis Leonov [1].<br>
 Script parses blk*.dat files of the Bitcoin blockchain and produces files containing simplyfied transactions,
 using the btcpy library [2].
 ![Simplyfied BTC transaction](https://github.com/aggstam/btc-classifier/blob/main/images/Simplified_Bitcoin_Transaction_Example_corrected.png)
