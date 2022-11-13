@@ -61,7 +61,7 @@ Example requirements installation for python3.8, while system uses python3.10
 % python3.8 -m ensurepip --upgrade
 % python3.8 -m pip install --user -r requirements.txt
 ```
-MySQL connector for mython must also be installed.<br>
+MySQL connector for python must also be installed.<br>
 Link: https://dev.mysql.com/doc/connector-python/en/connector-python-installation.html
 
 All scripts can be executed by using their name:
