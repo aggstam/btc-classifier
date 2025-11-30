@@ -61,9 +61,15 @@ Results files include each fold predictions, the graphs .graphml file and a loss
 ![Generated history file](https://github.com/aggstam/btc-classifier/blob/main/images/analyzer_deep_graph_infomax_plot.png)
 
 ## Execution
-Before executing any script, install required dependencies:
+Before executing any script, create a `python` virtual environment
+and source it:
+```shell
+$ python -m venv venv
+$ source venv/bin/activate
 ```
-% pip install -r requirements.txt
+Install required dependencies:
+```shell
+$ pip install -r requirements.txt
 ```
 
 **!IMPORTANT:**
@@ -71,17 +77,17 @@ Before executing any script, install required dependencies:
 stellargraph requires Python >=3.6.0, <3.8.0 so make sure you have that python versions installed, along with their pip module.
 <br>
 Example requirements installation for python3.8, while system uses python3.10
-```
-% python3.8 -m ensurepip --upgrade
-% python3.8 -m pip install --user -r requirements.txt
+```shell
+$ python3.8 -m ensurepip --upgrade
+$ python3.8 -m pip install --user -r requirements.txt
 ```
 MySQL connector for python must also be installed.
 <br>
 Link: https://dev.mysql.com/doc/connector-python/en/connector-python-installation.html
 
 All scripts can be executed by using their name:
-```
-% python analyzer.py
+```shell
+$ python analyzer.py
 ```
 
 ## Configuration
